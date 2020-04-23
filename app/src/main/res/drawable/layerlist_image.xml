@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/background" />
+    </item>
+
+    <item
+        android:left="500dp"
+        android:top="500dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/panda" />
+    </item>
+    <item
+        android:bottom="500dp"
+        android:right="700dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/smile" />
+    </item>
+</layer-list>
